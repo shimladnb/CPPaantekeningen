@@ -59,4 +59,16 @@ alles installeren:
 make
 sudo make install
 which <wat je net hebt gecompiled>
+ 
+ 
+ GIT AANTEKENING
+ alle stappen die je moet zetten incl github push
+ 
+ git init (initalise je gitmap in de map waarin je cd staat
+ git status (kijk wat er in staat)
+ git add (voeg toe wat je wilt hebben) (en nieuwe versies van oude)
+ git commit -am "wat er is gebeurd" (zet je files en laatste wijzigingen vast)
+ maak een github repository aan. en kopier je link
+ git remote add origin https://github.com/shimladnb/opdracht2.git
+ git push -u origin master
 */
