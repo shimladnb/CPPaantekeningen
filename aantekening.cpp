@@ -71,4 +71,6 @@ which <wat je net hebt gecompiled>
  maak een github repository aan. en kopier je link
  git remote add origin https://github.com/shimladnb/opdracht2.git
  git push -u origin master
+ daarna gewoon
+ git push origin
 */
