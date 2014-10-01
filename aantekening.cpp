@@ -73,4 +73,30 @@ which <wat je net hebt gecompiled>
  git push -u origin master
  daarna gewoon
  git push origin
+
+
+
+
+
+ make files zijn make scripts.
+ ook make heeft zijn eigen syntax voor het compileren van cpp scripts
+
+ make werkt ook met $variablenen net zoals bash
+ om een file aan te maken
+ file: sinewave.o audio_io.o
+ 	$(cpp) -o $@ $(CFLAGS) sinewave.o audio_io.o $(LDFLAGS) -lpthread
+
+ ok dit is dus kapot moeilijk. 
+
+ g++ -c = compileren van files  om er cpu files  van te maken
+ g++ -o = het samenvoegen van .o's
+
+
+
+$@ the current target
+$* base name of current target
+$< the first prerequisites that are newer than the target
+$? all prerequisites that are newer than the target
+
+
 */
