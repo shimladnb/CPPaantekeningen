@@ -74,6 +74,12 @@ which <wat je net hebt gecompiled>
  daarna gewoon
  git push origin
 
+ git log --decorate --all --oneline --graph
+ git tag testtag
+ git tag
+ git push --tags 
+ git remote   (om te zien wat je upload namen zijn)
+
 
 
 
@@ -97,6 +103,8 @@ $@ the current target
 $* base name of current target
 $< the first prerequisites that are newer than the target
 $? all prerequisites that are newer than the target
+
+
 
 
 */
