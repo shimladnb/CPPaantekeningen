@@ -88,7 +88,7 @@ which <wat je net hebt gecompiled>
 
  ok dit is dus kapot moeilijk. 
 
- g++ -c = compileren van files  om er cpu files  van te maken
+ g++ -c nieuwenaam oudenaam.cpp = compileren van files  om er cpu files  van te maken
  g++ -o = het samenvoegen van .o's
 
 
